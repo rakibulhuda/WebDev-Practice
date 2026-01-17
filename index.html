@@ -12,32 +12,36 @@
             font-weight: bold;
             font-style: italic;
             font-size: 30px;
-            display: block;
+            display: inline-block;
             text-align: center;
-            margin: auto;
-            margin-bottom: 30px;
-            margin-top: 30px;
+            margin: 30px;
             padding: 10px;
             border: 5px solid whitesmoke;
             border-radius: 20px;
             width: 18%;
+            transition: box-shadow 0.2s ease; /*delay*/
         }
         h1 a{
             color: whitesmoke;
             text-decoration: none;
         }
         h1 a:hover{
-            color: red;
+            color: #e8e6e6;
+        }
+        h1:hover {
+            box-shadow: 0 0 55px rgba(255, 255, 255, 0.7);
+            background-color: red;
         }
         body{
+            background-size: cover;
             background-image: url("https://as2.ftcdn.net/v2/jpg/15/96/29/67/1000_F_1596296768_eDhRqAgnMexEQcjzPJ29fILXnm8YUXQ3.jpg");
         }
     </style>
     <title>Home</title>
 </head>
 <body>
-    <h1><a href="./pages/border.html" target="_blank" rel="noopener">Border</a></h1>
     <h1><a href="./pages/home.html" target="_blank" rel="noopener">Home</a></h1>
+    <h1><a href="./pages/border.html" target="_blank" rel="noopener">Border</a></h1>
     <h1><a href="./pages/index.html" target="_blank" rel="noopener">Input</a></h1>
     <h1><a href="./pages/list.html" target="_blank" rel="noopener">List</a></h1>
     <h1><a href="./pages/login-form.html" target="_blank" rel="noopener">Login Form</a></h1>

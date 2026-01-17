@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .circle1{
+            border: 10px solid gray;
+            width: 2px;
+            margin: 50px;
+            border-radius: 100%;
+        }
+        .borders{
+            /*border: solid 10px seagreen;*/
+            border: 10px solid brown;
+            border-top-color: seagreen;
+            text-align: justify;
+            /*The margin measurements happens clockwise*/
+            margin: 30px; /*all side */
+            /*margin: 30px 150px; !*TopBottom RightLeft *!*/
+            /*margin: 30px 60px 90px; !*Top LeftRight Bottom *!*/
+            /*margin: 30px 60px 90px 180px; !*Top Right Left Bottom *!*/
+            padding: 30px;
+        }
+        input[type="password"], input[type="text"] {
+            color: red;
+            border-radius: 50px;
+            border: 2px solid;
+            text-align: right;
+        }
+        #second{
+            visibility: hidden;
+        }
+        #custom{
+            display: block;
+            border: 5px solid black;
+            height: 300px;
+            width: 30%;
+            margin: 20px;
+            text-align: justify;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: -8px 10px 10px gray; /* x-offset y-offset  density color  */
+        }
+        .background-img{
+            height: 1600px;
+            background-image: url("./images/hero-bg.png");
+            image-orientation: revert-layer;
+            background-repeat: no-repeat; /* this helps not to repeat the pic*/
+            background-size: contain; /*this fits the image to the place*/
+            background-position: left center;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Border</title>
+</head>
+<body>
+    <div class="background-img">
+        haha
+    </div>
+    <div>
+        <h1> This is border practice</h1>
+        <p class="borders">
+            It real sent your at. Amounted all shy set why followed declared. Repeated of endeavor mr position kindness offering ignorant so up. Simplicity are melancholy preference considered saw companions. Disposal on outweigh do speedily in on. Him ham although thoughts entirely drawings. Acceptance unreserved old admiration projection nay yet him. <span id="custom">Lasted am so before on esteem vanity oh. Carried nothing on am warrant towards. Polite in of in oh needed itself silent course.</span>Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing pursuit minutes far. Same do seen head am part it dear open to. Whatever may scarcely judgment had.
+        </p>
+        <p class="borders" id="second">
+            He difficult contented we determine ourselves me am earnestly. Hour no find it park. Eat welcomed any husbands moderate. Led was misery played waited almost cousin living. Of intention contained is by middleton am. Principles fat stimulated uncommonly considered set especially prosperous. Sons at park mr meet as fact like. Now residence dashwoods she excellent you. Shade being under his bed her. Much read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Did even but nor are most gave hope. Secure active living depend son repair day ladies now.
+        </p>
+        <p class="borders">
+            Left till here away at to whom past. Feelings laughing at no wondered repeated provided finished. It acceptance thoroughly my advantages everything as. Are projecting inquietude affronting preference saw who. Marry of am do avoid ample as. Old disposal followed she ignorant desirous two has. Called played entire roused though for one too. He into walk roof made tall cold he. Feelings way likewise addition wandered contempt bed indulged. So feel been kept be at gate. Be september it extensive oh concluded of certainty. In read most gate at body held it ever no. Talking justice welcome message inquiry in started of am me. Led own hearted highest visited lasting sir through compass his. Guest tiled he quick by so these trees am. It announcing alteration at surrounded comparison.
+        </p>
+    </div>
+    <div>
+        <form>
+            <label>Username: </label>
+            <input type="text" name="username" id="username"><br>
+            <label>Password: </label>
+            <input type="password" name="password" id="password"><br>
+        </form>
+    </div>
+    <div class="circle1"></div>
+</body>
+</html>

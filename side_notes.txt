@@ -1,0 +1,37 @@
+<p> -->  is paragraph. anything in between this tag will be separated as a paragraph 
+<b> / <strong> --> is bold (semantic tag)
+<i> -- > is italic (semantic tag)
+<br> --> break
+<input> --> input taken from user, there are several fields for that
+<form> is the form that is submitable
+<label> is the text
+<span> is a inline container to group elements for styling purpose. if a simple line needs to be added css then we use them
+<div> is a block container to group elements for styling purpose
+
+Margin vs padding:
+padding is inside the element border. element er vitore ja ase oitar moddhe spacing. in easy english padding is the spacing between the content and the border.
+margin is spacing outside elemnt order. it is spacing one element to another element.
+Margin dile baire hobe, padding dile vitore hobe.
+
+Learn box model:
+https://elementor.com/blog/margin-vs-padding/
+
+CSS:
+There are three (3) types of :
+1. inline css -- > it is written inside the tag
+2. embedded css --> we write css inside one html. it is only for that particular page. the css style is not accessed outside that file
+3. external css --> once it is written, it is accessed through the entire file.
+
+There are several selector in css:
+1. class --> .login{} (written convention)
+2. id --> #highlight{}
+3. element --> li{}
+4. universal --> *{}
+5. grouping & attribute
+
+The margin measurements happens clockwise
+/*margin: 50px; !*all side *!*/
+/*margin: 30px 150px; !*TopBottom RightLeft *!*/
+/*margin: 30px 60px 90px; !*Top LeftRight Bottom *!*/
+/*margin: 30px 60px 90px 180px; !*Top Right Left Bottom *!*/
+

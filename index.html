@@ -6,37 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="images/home.png" type="image/x-icon">
-    <style>
-        h1{
-            font-family: "Mongolian Baiti";
-            font-weight: bold;
-            font-style: italic;
-            font-size: 30px;
-            display: inline-block;
-            text-align: center;
-            margin: 30px;
-            padding: 10px;
-            border: 5px solid whitesmoke;
-            border-radius: 20px;
-            width: 18%;
-            transition: box-shadow 0.2s ease; /*delay*/
-        }
-        h1 a{
-            color: whitesmoke;
-            text-decoration: none;
-        }
-        h1 a:hover{
-            color: #e8e6e6;
-        }
-        h1:hover {
-            box-shadow: 0 0 55px rgba(255, 255, 255, 0.7);
-            background-color: red;
-        }
-        body{
-            background-size: cover;
-            background-image: url("https://as2.ftcdn.net/v2/jpg/15/96/29/67/1000_F_1596296768_eDhRqAgnMexEQcjzPJ29fILXnm8YUXQ3.jpg");
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
 <body>
@@ -46,5 +16,19 @@
     <h1><a href="./pages/list.html" target="_blank" rel="noopener">List</a></h1>
     <h1><a href="./pages/login-form.html" target="_blank" rel="noopener">Login Form</a></h1>
     <h1><a href="./pages/module2practice.html" target="_blank" rel="noopener">Module 2 Practice</a></h1>
+    <div class="video-custom">
+        <video controls>
+            <source src="./media/tora_bora_nasheed__lyrics_in_english__.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <iframe
+                src="https://www.youtube.com/embed/rejcbMAi1Gw?si=t-LqAgAelapRuL0l"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+        </iframe>
+    </div>
 </body>
 </html>

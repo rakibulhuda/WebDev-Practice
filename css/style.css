@@ -1,17 +1,47 @@
-.border{
-    border: 2px solid;
-    width: 500px;
-    height: 350px;
-    margin: auto;
-    border-radius: 15px;
+h1{
+    font-family: "Mongolian Baiti";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    width: 18%;
+    transition: box-shadow 0.2s ease; /*delay*/
 }
-p{
-    font-size: 20px;
+h1 a{
+    color: whitesmoke;
+    text-decoration: none;
 }
-label{
-    margin: 35px;
-    padding-right: 50px;
+h1 a:hover{
+    color: #e8e6e6;
 }
-input{
-    margin: 15px;
+h1:hover {
+    box-shadow: 0 0 55px rgba(255, 255, 255, 0.7);
+    background-color: red;
 }
+body{
+    background-size: cover;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/15/96/29/67/1000_F_1596296768_eDhRqAgnMexEQcjzPJ29fILXnm8YUXQ3.jpg");
+}
+.video-custom {
+    display: flex;
+    justify-content: center;     /* centers horizontally */
+    gap: 20px;                   /* space between video and iframe */
+    margin: 30px auto;           /* vertical spacing + center if needed */
+    flex-wrap: wrap;             /* allows stacking on small screens */
+}
+
+.video-custom video,
+.video-custom iframe {
+    width: 560px;                /* same width */
+    height: 315px;               /* same height */
+    max-width: 100%;             /* responsive: shrink on small screens */
+    height: auto;                /* maintain aspect ratio */
+    border-radius: 20px;
+}
+
+

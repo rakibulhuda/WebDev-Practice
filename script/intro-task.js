@@ -1,0 +1,21 @@
+// var physics = parseFloat(prompt("Pysics mark: "))
+// var chemistry = parseFloat(prompt("Chemistry mark: "))
+// var maths = parseFloat(prompt("Maths mark: "))
+// var english = parseFloat(prompt("English mark: "))
+// var bangla = parseFloat(prompt("Bangla mark: "))
+// console.log("Physics mark: ", physics)
+// console.log("Chemistry mark: ", chemistry)
+// console.log("Maths mark: ", maths)
+// console.log("English Mark: ", english)
+// console.log("Bangla: ", bangla)
+// var average = (physics+chemistry+maths+english+bangla)/5
+// console.log("Average: ", average.toFixed(2))
+// var userInput = prompt("Enter desired module number: ")
+// console.log("Mod value: " , userInput%5)
+var haha
+var random = 2-10
+const a = isNaN(2-10)
+console.log(a, typeof a)
+console.log(haha)
+const b = isNaN(haha)
+console.log(b, typeof a)

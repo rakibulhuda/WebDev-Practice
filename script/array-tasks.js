@@ -21,3 +21,18 @@ console.log("Is", array2, "really an array? Answer: ", Array.isArray(array2))
 /* Task-5 */
 let shallowCopy = fruits.concat(tourist_destination)
 console.log(shallowCopy)
+
+//Practice
+let arr = ["a", "b", "c", "d", "e", "f"];
+arr.push("g","h","i") // add elements in the end of the array
+console.log(arr)
+arr.pop() // deleting elements of last index
+console.log(arr)
+arr.unshift("j","k","l") // add elements to the beginning of an array
+console.log(arr)
+arr.shift() // deleting elements of first index
+console.log(arr)
+console.log(arr.includes("f", "k"))// check if element is available or not
+let arr2 = ["xx", "yy", "zz"]
+let shallowCopy2 = arr.concat(arr2)
+console.log(shallowCopy2)

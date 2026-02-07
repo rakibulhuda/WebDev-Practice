@@ -1,3 +1,19 @@
+let words = [
+    "apple", "banana", "pineapple", "banana",
+    "banana", "melon", "guava", "apple",
+];
+let emptyArr = []
+function noDuplicatewWord(listOfWords) {
+    for(let word of listOfWords){
+        if(!emptyArr.includes(word)){
+            emptyArr.push(word)
+        }
+    }
+    console.log(emptyArr)
+}
+noDuplicatewWord(words)
+
+// Task-3
 let str = "autonomousAArjisous"
 /*
 0 = a, 1 = e, 2 = i, 3 = o, 4 = u
@@ -24,17 +40,18 @@ console.log(
     "\no:", strCount[3],
     "\nu:", strCount[4],
 );
-let words = [
-    "apple", "banana", "pineapple", "banana",
-    "banana", "melon", "guava", "apple",
-];
-let emptyArr = []
-function noDuplicatewWord(listOfWords) {
-    for(let word of listOfWords){
-        if(!emptyArr.includes(word)){
-            emptyArr.push(word)
-        }
+//  Task-4
+let x = "X-ray-MyXxY"
+let arr = x.split("")
+console.log(arr)
+for(let i = 0; i< arr.length; i++){
+    if(arr[i]==="x"){
+        arr[i]="y"
+    }else if(arr[i]==="X"){
+        arr[i]="Y"
     }
-    console.log(emptyArr)
 }
-noDuplicatewWord(words)
+arr = arr.join("")
+console.log(arr)
+
+

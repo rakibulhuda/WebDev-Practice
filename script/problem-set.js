@@ -63,7 +63,7 @@ console.log(finalScore({ right: "30", wrong: 30 }))
 function gonoVote(array) {
     //write your code here
     let count = 0
-    const validVote = Array.isArray(array) && array.length > 0 && array.every(item => ["ha", "na"].includes(item))
+    const validVote = Array.isArray(array) && array.length >= 0 && array.every(item => ["ha", "na"].includes(item))
     if(validVote){
         for(let word of array){
             if(word === "ha"){
@@ -83,7 +83,7 @@ function gonoVote(array) {
         return "Invalid"
     }
 }
-console.log(gonoVote(["  na ", "ha", "ha", "na"]))
+console.log(gonoVote([]))
 
 // Problem - 5
 function  analyzeText(str) {

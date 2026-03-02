@@ -36,3 +36,4 @@ console.log(arr.includes("f", "k"))// check if element is available or not
 let arr2 = ["xx", "yy", "zz"]
 let shallowCopy2 = arr.concat(arr2)
 console.log(shallowCopy2)
+console.log("haha")

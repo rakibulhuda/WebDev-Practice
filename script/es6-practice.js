@@ -57,3 +57,25 @@ const dog = {
 }
 // console.log(dog.vaccine.injury) // error if vaccine is not available
 console.log(dog?.vaccine?.injury) // Optional Chaining
+
+const arr = [1,2,3,5,6,7,8,9]
+// for...in (index of array)
+for(let indexOfArr in arr){
+    console.log(`Index: ${indexOfArr}`)
+}
+console.log("\n")
+// for...of (value of array)
+for(let valueOfArr of arr){
+    console.log(`Value: ${valueOfArr}`)
+}
+const laptop = {
+    brand: "lenovo",
+    model: 2023,
+    processor: "amd",
+    AI: false
+}
+console.log("\n")
+// for...in (keys of obj)
+for(let keys in laptop){
+    console.log(`Keys : ${keys} , Value: ${laptop[keys]}`)
+}

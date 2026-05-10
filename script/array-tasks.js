@@ -37,3 +37,15 @@ let arr2 = ["xx", "yy", "zz"]
 let shallowCopy2 = arr.concat(arr2)
 console.log(shallowCopy2)
 console.log("haha")
+
+let arr3 = [1, 2, 3, 4, 5, 6]
+function changeValueByReference(passedIndexes){
+    console.log(passedIndexes, typeof passedIndexes)
+    arr3[passedIndexes[0]] = 200
+    arr3[passedIndexes[1]] = 300
+}
+changeValueByReference([2,3])
+// Callback function
+let doubleIt = num => num*2
+let doubled = arr3.map(doubleIt)
+console.log(doubled)

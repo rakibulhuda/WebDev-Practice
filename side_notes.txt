@@ -1,4 +1,4 @@
-<p> -->  is paragraph. anything in between this tag will be separated as a paragraph 
+<p> -->  is paragraph. anything in between this tag will be separated as a paragraph
 <b> / <strong> --> is bold (semantic tag)
 <i> -- > is italic (semantic tag)
 <br> --> break
